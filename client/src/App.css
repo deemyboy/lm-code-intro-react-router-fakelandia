@@ -1,0 +1,36 @@
+#root {
+    max-width: 800px;
+    width: 800px;
+    margin: 0 auto;
+    color: #000;
+}
+header {
+    border: 2px solid #000;
+}
+nav {
+    color: #000;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+.site-nav-logo {
+    max-width: 120px;
+    display: inline-block;
+    font-size: 1rem;
+}
+li {
+    display: inline;
+    padding: 0 10px;
+    font-size: 2rem;
+    color: #000;
+}
+li a {
+    color: #000;
+}
+li a:hover {
+    color: #400;
+}
+li a.active {
+    color: #800;
+}
